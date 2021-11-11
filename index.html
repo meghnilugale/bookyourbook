@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Website Layout3</title>
+        <meta charset="utf-8">
+        <meta name="width=device-width, initia-scale=1">
+        <style>
+            *{box-sizing: border-box;}
+
+            body{margin: 0;}
+
+            .header{
+                    background: url(https://www.friendshipbookstore.com/wp-content/uploads/2015/04/cropped-FBS-Header1.jpg);
+                    color: white;
+                    padding: 120px;
+                    text-align: center;
+                    font-size: 30px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+            .topnav{overflow: hidden;
+                    background-color:white;}
+
+            .topnav a{float: left;
+                      color: black;
+                      padding: 28px 30px;
+                      display: block;
+                      text-align: center;
+                      text-decoration: none;}
+
+            .topnav a:hover{background-color: green; color: white;}
+
+            .column{float: left;
+                    padding: 20px;}
+
+            .column.side1{width: 50%;
+                         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+            .column.side2{width: 50%;
+                           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+            .row:after{content: "";
+                       clear: both;
+                       display: table;}
+
+            @media screen and (max-width:1000px){
+                .column.side, .column.middle{
+                    width: 100%;}
+            }
+
+            .footer{background-color: rgb(11, 19, 29);
+                    padding: 20px;
+                    text-align: center;
+                    color: white;}
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Your Book Store</h1>
+            <h2>Read With Us!</h2>
+        </div>
+
+        <div class="topnav">
+            <a href="https://www.About.com">About</a>
+            <a href="https://www.Secrets.com">Secretes</a>
+            <a href="https://www.happylife.com">Happy Life</a>
+            <a href="https://www.more.com">More</a>
+        </div>
+
+        <div class="row" style="background: url(https://thumbs.dreamstime.com/b/blurred-bookshelf-many-old-books-book-shop-library-162908984.jpg); color: white; padding: 60px;">
+            <div class="column side1">
+                <h1>About Just Reading</h1>
+                <p>I’m a reader. A reader with crazy eclectic taste in books — one day I could be knee deep in a fantasy novel and then move on to a political thriller next.
+
+                    I read classics and new releases and I also re-read books I loved with the intention of finding out if I still feel the same love for them. I also tend to peruse the bookcases every once in a while and come up with something I bought years ago and haven’t read yet. So, yes, electric is a good description of my reading habits.</p>
+            </div>
+
+            
+            <div class="column side2">
+                <h1>A New Way To Read</h1>
+                <p>I’m not sure if I’m fascinated or horrified by this New York Times article -> Tiny Books Fit in One Hand. Will They Change the Way We Read? 
+
+                    On one hand, I love that books are changing, adapting to new ways that readers are interacting with words. Innovation is exciting in that regard. I’m always interested in exploring literary worlds in new formats and I think this one is interesting. But. Yes, a but.
+                    
+                    I’m torn. I want to embrace this new tiny book idea and I’ll probably buy one out of curiosity.  BUT the one part of the article I keep coming back to is this:</p>
+            </div>
+        </div>   
+
+        <div class="footer">
+             <p>Contact:-088-20552</p>
+             <p>Email Us:-<a href="mailto:readbooks@gmail.com">Readbooks@gmil.com</a></p>
+               
+        </div>
+    </body>
+</html>
